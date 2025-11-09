@@ -1,0 +1,28 @@
+PS C:\Users\Lenovo\Downloads> & C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/Lenovo/Downloads/code.py
+===================================
+   Welcome to Daily Calorie Tracker 
+===================================
+This tool helps you log your meals, track total calories, and check against your daily calorie limit.
+
+How many meals would you like to log today? 3
+Enter meal 1 name: Breakfast
+Enter calories for Breakfast: 350
+Enter meal 2 name: lunch
+Enter calories for lunch: 600
+Enter meal 3 name: dinner
+Enter calories for dinner: 150
+
+Enter your daily calorie limit: 400
+
+===== Daily Calorie Report =====
+Meal Name       Calories
+-----------------------------------
+Breakfast               350.0
+lunch           600.0
+dinner          150.0
+-----------------------------------
+Total:          1100.0
+Average:        366.67
+ Warning: You have exceeded your daily calorie limit.
+
+Do you want to save this report in a file? (yes/no): no
