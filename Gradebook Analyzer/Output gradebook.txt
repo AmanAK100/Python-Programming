@@ -1,0 +1,43 @@
+
+========================================
+         GRADEBOOK ANALYZER CLI
+========================================
+1. Enter student data manually
+2. Load data from CSV file
+3. Exit
+========================================
+Enter your choice (1-3): 1
+How many students do you want to enter? 2
+Enter name of student 1: Ajay
+Enter marks for Ajay: 40
+Enter name of student 2: Mohit
+Enter marks for Mohit: 30
+
+========================================
+              GRADE REPORT
+========================================
+Name           Marks     Grade
+----------------------------------------
+Ajay           40.0      F
+Mohit          30.0      F
+----------------------------------------
+Average Marks: 35.00
+Median Marks: 35.0
+Highest Marks: 40.0
+Lowest Marks: 30.0
+
+Grade Distribution:
+A: 0 students
+B: 0 students
+C: 0 students
+D: 0 students
+F: 2 students
+
+ Passed (1): Ajay
+ Failed (1): Mohit
+
+Do you want to save results to CSV? (yes/no): yes
+ Results saved to gradebook_output.csv
+
+Do you want to analyze another dataset? (yes/no): no
+Thank you for using GradeBook Analyzer! 
